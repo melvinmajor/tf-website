@@ -1,0 +1,11 @@
+﻿User-agent: *
+Disallow: /*
+Disallow: /
+Disallow: /favicon.ico
+Disallow: /favicon.png
+Disallow: /other/
+Disallow: /other/*
+Disallow: /img/
+Disallow: /img/*
+Disallow: /test/
+Disallow: /test/*
