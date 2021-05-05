@@ -7,6 +7,8 @@
 A website presenting an exposition from the Chouette Ecole nursery/primary school from Hamme-Mille.
 The exposition is around family thematic and shows projects made by some students.
 
+QR Codes that are present in this project are all generated via [Générateur de QR Code](https://q-r-code.fr/).
+
 ## License
 
 This project is currently not licensed but is subject to change during the development process.

@@ -49,3 +49,14 @@ img { max-width: 450px; }
     background-color: rgba(0, 0, 0, 0.2);
     color: darkgray;
 }
+
+/* Tab & QR Code content layout */
+
+.tab {
+    margin: 1em;
+    padding: 0;
+}
+.qr {
+    width: auto;
+    max-width: 350px;
+}
