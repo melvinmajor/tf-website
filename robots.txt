@@ -5,7 +5,13 @@ Disallow: /favicon.ico
 Disallow: /favicon.png
 Disallow: /other/
 Disallow: /other/*
+Disallow: /qrcode/
+Disallow: /qrcode/*
 Disallow: /img/
 Disallow: /img/*
+Disallow: /video/
+Disallow: /video/*
+Disallow: /cpc/
+Disallow: /cpc/*
 Disallow: /test/
 Disallow: /test/*
