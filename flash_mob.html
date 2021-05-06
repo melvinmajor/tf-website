@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
     <meta http-equiv="x-ua-compatible" content="ie=edge" />
-    <title>TF Homepage</title>
+    <title>Flash mob 2021</title>
     <!-- Font Awesome -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css" />
     <!-- Google Fonts Roboto -->
@@ -30,7 +30,7 @@
           <!-- Links -->
           <ul class="navbar-nav mb-2 mb-lg-0">
             <li class="nav-item">
-              <a class="nav-link mx-2 active" aria-current="page" href="index.html">Accueil</a>
+              <a class="nav-link mx-2" aria-current="page" href="index.html">Accueil</a>
             </li>
             <!-- Navbar dropdown -->
             <li class="nav-item dropdown">
@@ -52,7 +52,7 @@
               <a class="nav-link mx-2" href="ndls.html">Néerlandais</a>
             </li>
             <li>
-              <a class="nav-link mx-2" href="flash_mob.html">Flash mob</a>
+              <a class="nav-link mx-2 active" href="flash_mob.html">Flash mob</a>
             </li>
             <li class="nav-item">
               <a class="nav-link mx-2" href="https://docs.google.com/forms/d/1qaYU2jDPSwMRWY9zZ7K-VBZywiLq3LeRYAVGeHSUarM/viewform?edit_requested=true" target="_blank"><i class="fas fa-book-open"></i> Livre d'Or</a>
@@ -74,68 +74,33 @@
       <img src="img/ChouetteEcoleHamme-Mille.png" class="logo" />
 
       <div class="card">
-        <div class="row row-cols-1 row-cols-md-3 g-4">
-          <div class="col">
-            <div class="card text-body bg-info">
-              <div class="card-header"><h5>Français</h5></div>
-              <div class="card-body">
-                <p class="card-text">Bonjour,
-                  bienvenue à l'exposition de la Chouette Ecole.
-                  Pour cette exposition, les élèves de maternelle et de primaire ont travaillé la thématique de la famille.
-                  Nous vous souhaitons un agréable moment.
-                </p>
-              </div>
-            </div>
-          </div>
-          <div class="col">
-            <div class="card text-body bg-info">
-              <div class="card-header"><h5>Nederlands</h5></div>
-              <div class="card-body">
-                <p class="card-text">Welkom bij de tentoonstelling van onze "Chouette École".
-                  De kleuters en de leerlingen van de basisschool werkten rond het thema "het gezin".
-                  Wij wensen u veel kijkplezier.
-                </p>
-              </div>
-            </div>
-          </div>
-          <div class="col">
-            <div class="card text-body bg-info">
-              <div class="card-header"><h5>English</h5></div>
-              <div class="card-body">
-                <p class="card-text">Hello,
-                  welcome to the Chouette Ecole exhibition.
-                  For this exhibition, nursery and primary school students worked on the theme of family. We wish you a pleasant time.
-                </p>
-              </div>
-            </div>
-          </div>
+        <h3>Flash mob mai 2021</h3>
+
+        <!-- Tab navs -->
+        <div class="nav nav-tabs text-center" id="v-tabs-tab" role="tablist" aria-orientation="horizontal">
+          <a class="nav-link active" id="v-tabs-1-tab" data-mdb-toggle="tab" href="#v-tabs-1" role="tab" aria-controls="v-tabs-1" aria-selected="true">Les maternelles</a>
+          <a class="nav-link" id="v-tabs-2-tab" data-mdb-toggle="tab" href="#v-tabs-2" role="tab" aria-controls="v-tabs-2" aria-selected="false">Les primaires</a>
+          <a hidden class="nav-link" id="v-tabs-3-tab" data-mdb-toggle="tab" href="#v-tabs-3" role="tab" aria-controls="v-tabs-3" aria-selected="false">Contenu 3</a>
+
         </div>
-
-        <br>
-
-        <div class="d-flex justify-content-center">
-          <iframe hidden src="https://www.facebook.com/plugins/video.php?height=448&href=https%3A%2F%2Fwww.facebook.com%2FE.F.A.HammeMille%2Fvideos%2F3072903196142135%2F&show_text=true&width=560" width="560" height="563" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share" allowFullScreen="true"></iframe>
-          <video width="560" height="448" autoplay="autoplay" loop="loop" controls="controls" controlsList=”nodownload”>
-            <source src="video/welcome-video.mp4" type="video/mp4">
-          </video>
-        </div>
-
-        <br>
-
-        <a href="http://www.ecolefondamentalehammemille.be/" class="btn btn-secondary" target="_blank">Site officiel de l'école</a>
-
-        <br>
-
-        <h3 hidden>Exemple de contenu 1</h3>
-        <div class="d-flex" hidden>
-          <div class="p-2 flex-fill" hidden><img src="https://mdbootstrap.com/img/new/standard/city/043.jpg" class="hover-shadow" alt="" /></div>
-          <div class="p-2 flex-fill" hidden>
-            <p>Texte avec plusieurs lignes.
-              <br>On imagine qu'ici il y aura une description de l'image pour une brève explication intéressante.</p>
+        <!-- Tab navs -->
+        <div class="col-9">
+        <!-- Tab content -->
+          <div class="tab-content" id="v-tabs-tabContent">
+            <div class="tab-pane fade show active" id="v-tabs-1" role="tabpanel" aria-labelledby="v-tabs-1-tab">
+              <iframe class="iFrameSpace" width="854" height="480" src="https://www.youtube.com/embed/eXphtxTwBSg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              <iframe class="iFrameSpace" width="854" height="480" src="https://www.youtube.com/embed/UPxW-FYTWqA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+            <div class="tab-pane fade" id="v-tabs-2" role="tabpanel" aria-labelledby="v-tabs-2-tab">
+              <iframe class="iFrameSpace" width="854" height="480" src="https://www.youtube.com/embed/eiMJqBIRYIM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+            <div hidden class="tab-pane fade" id="v-tabs-3" role="tabpanel" aria-labelledby="v-tabs-3-tab">
+              <p>Détail du contenu 3</p>
+            </div>
           </div>
+        <!-- Tab content -->
         </div>
       </div>
-    </div>
 
     <footer class="fixed-bottom bg-dark text-center text-lg-start">
       <!-- Copyright -->
